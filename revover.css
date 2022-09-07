@@ -1,0 +1,91 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&family=Urbanist:wght@400;500;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/general-sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 245, 249);
+}
+
+/*Heading*/
+.recover-heading {
+  text-align: center;
+} 
+.recover_password {
+  font-size: 28px;
+  margin-top: 62px;
+  margin-bottom: 0;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+}
+.recover_password_2 {
+  font-size: 15px;
+  margin-top: 5px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+/*form*/
+.email, .phone-number {
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 15px;
+  border-color: rgb(236, 236, 236);
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
+.email {
+  margin-top: 70px;
+}
+
+/*Privacy Policy*/
+.input-check {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-right: 80px;
+  
+ 
+} 
+.privacy-policy {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 9px;
+  font-size: 13px;
+  font-family: 'General Sans', sans-serif;
+}
+.readmore {
+  text-decoration: none;
+  color: rgb(53, 194, 50);
+}
+.check {
+  transform: scale(1.5);
+}
+
+/*Button*/
+.button {
+  margin: auto;
+  display: block;
+  width: 318px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(71, 216, 112);
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  margin-top: 90px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(44, 190, 85);
+}
+.button:active {
+  background-color: rgb(89, 239, 131);
+  color: rgb(0, 0, 0);
+}
